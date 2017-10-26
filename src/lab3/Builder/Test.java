@@ -11,8 +11,8 @@ public class Test {
             EmailMessage wiadomosc = EmailMessage.builder()
                     .addFrom("agnieszkapekala0@gmail.com")
                     .addTo(list_to)
-                    .addSubject("Gosia")
-                    .addContent("pyszny seeeeeer")
+                    .addSubject("temat")
+                    .addContent("treść")
                     .build();
             System.out.println(wiadomosc.getFrom());
             wiadomosc.getTo().forEach(System.out::println);
