@@ -1,7 +1,6 @@
-package lab6;
+package lab6.zad1;
 
 import java.awt.*;
-import java.awt.geom.Rectangle2D;
 
 import static java.lang.Math.sqrt;
 
@@ -37,6 +36,7 @@ public class Triangle extends Shape {
         int height=(int)(wymiar*sqrt(3)/2);
         int c=(int)(y+wymiar);
         Graphics g2 = g;
+
 
         g2.setColor(Color.orange);
         g2.fillPolygon(new int[]{x,b,a}, new int[]{c,c-(int)wymiar,c}, 3 );
