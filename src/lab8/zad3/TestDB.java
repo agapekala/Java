@@ -1,4 +1,4 @@
-package lab8.zad2;
+package lab8.zad3;
 
 
 import javafx.application.Application;
